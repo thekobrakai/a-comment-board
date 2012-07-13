@@ -14,7 +14,7 @@
         while(rs.next()) {
             out.println("<div class='oneComment'>");
             out.println("<div class='info'>");
-            out.println("<span class='email'>"+rs.getString("email")+"</span>");
+            out.println("<span class='email'><a href='mailto:"+rs.getString("email")+"'>"+rs.getString("email")+"</a></span>");
             out.println("<span class='date'>"+rs.getString("time")+"</span>");
             out.println("</div>");
             out.println("<div class='detail'>");
