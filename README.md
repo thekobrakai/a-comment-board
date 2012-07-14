@@ -12,4 +12,4 @@ But `notice` that there is no server in the background,so you'll see nothing if 
 If you really want to find out how this interface generated, see the codes on branch gh-pages.
 
 ### more introductions
-See more introductions on the Wiki.
+See more introductions on [Wiki](https://github.com/guoang/a-comment-board/wiki/_pages).
