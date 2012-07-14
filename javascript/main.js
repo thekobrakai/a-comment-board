@@ -62,6 +62,12 @@ function checkform(){
         alert("You must input your E-mail address first!");
         return false;
     }
+    var email=eInput[0].value;
+    if(email.indexOf('@')==-1)
+    {
+        alert("Your email address is illegal!");
+        return false;
+    }
     var txta=document.getElementsByName("comment");
     if(txta[0].value == "")
     {
