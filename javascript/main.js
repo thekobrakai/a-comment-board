@@ -63,7 +63,7 @@ function checkform(){
         return false;
     }
     var email=eInput[0].value;
-    if(email.indexOf('@')==-1)
+    if(email.indexOf('@')==-1 || email.indexOf('@')==0 || email.indexOf('@')==email.length-1)
     {
         alert("Your email address is illegal!");
         return false;
