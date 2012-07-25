@@ -34,6 +34,6 @@
 
 <%
 response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);
-String newURL = "/index.jsp";
+String newURL = "index.jsp";
 response.setHeader("Location",newURL);
 %>
